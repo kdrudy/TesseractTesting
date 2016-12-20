@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tesseract</title>
+</head>
+<body>
+
+<form action="/ocr" method="post">
+
+        <label for="brandImageLink">Image Link:</label>
+        <input class="form-control" type="text" name="imageLink" id="brandImageLink" required/><br/>
+
+        <button type="submit" >Upload</button>
+    </div>
+</form>
+
+{{#text}}
+<p>{{{text}}}</p>
+{{/text}}
+</body>
+</html>
